@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Iowa City graduation photographer by.emersondrake specializes in University of Iowa senior pictures, cap and gown sessions, and creative graduation photography.">
+  <title>Iowa City Graduation Photographer | by.emersondrake</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f8f5ef;
+      color: #514438;
+      font-family: Georgia, serif;
+      line-height: 1.7;
+    }
+    .notice {
+      background: #e8dfd3;
+      padding: 12px 20px;
+      text-align: center;
+      font: 12px/1.5 Arial, sans-serif;
+    }
+    header { text-align: center; padding: 35px 20px 20px; }
+    .logo { font-size: 29px; letter-spacing: 2px; }
+    .tagline { font-size: 12px; letter-spacing: 3px; }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 22px;
+      padding: 20px;
+      border-top: 1px solid #d8c8b5;
+      border-bottom: 1px solid #d8c8b5;
+    }
+    nav a {
+      color: #514438;
+      text-decoration: none;
+      font: 13px Arial, sans-serif;
+    }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #d4bd9d, #f1e6d5);
+    }
+    h1 {
+      font-size: clamp(34px, 6vw, 56px);
+      font-weight: normal;
+      margin: 0;
+    }
+    .hero p { font-style: italic; font-size: 20px; }
+    section { max-width: 900px; margin: auto; padding: 65px 24px; }
+    h2 { font-size: 34px; font-weight: normal; }
+    h3 { font-size: 23px; font-weight: normal; }
+    .center { text-align: center; }
+    .highlight {
+      background: #eae1d5;
+      max-width: none;
+      text-align: center;
+    }
+    .highlight p { max-width: 750px; margin: 15px auto; }
+    .details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+    }
+    .detail { background: white; padding: 25px; }
+    .button {
+      display: inline-block;
+      background: #514438;
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      font: 13px Arial, sans-serif;
+      letter-spacing: 1px;
+      margin-top: 15px;
+    }
+    footer {
+      background: #514438;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer a { color: white; }
+    footer .notice { color: #514438; margin-top: 25px; }
+    @media (max-width: 700px) {
+      .details { grid-template-columns: 1fr; }
+      section { padding: 45px 20px; }
+      nav { gap: 14px; }
+      .hero { padding: 75px 20px; }
+      .logo { font-size: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <div class="logo">by.emersondrake</div>
+    <div class="tagline">PHOTOGRAPHY &amp; VISUAL STORYTELLING</div>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">HOME</a>
+    <a href="couples.html">COUPLES</a>
+    <a href="portraits.html">PORTRAITS</a>
+    <a href="graduation.html" aria-current="page">GRADUATION</a>
+  </nav>
+
+  <main>
+    <div class="hero">
+      <h1>Iowa City Graduation Photographer</h1>
+      <p>The end of an era. The beginning of everything.</p>
+    </div>
+
+    <section class="center">
+      <h2>You did it. Let's celebrate.</h2>
+      <p>From late-night study sessions at the library to unforgettable Saturdays in Kinnick Stadium, your college experience has been filled with moments that shaped who you are today.</p>
+      <p>Graduation marks the end of one chapter and the beginning of another. At by.emersondrake, we believe your senior photos should capture more than a cap and gown. They should celebrate your personality, your friendships, and everything you've accomplished.</p>
+      <p>As an Iowa City graduation photographer, Emerson Drake creates natural, creative graduation portraits for University of Iowa students who want to remember their college years in a meaningful way.</p>
+    </section>
+
+    <section class="highlight">
+      <h2>University of Iowa Graduation Photos</h2>
+      <p>Iowa City is full of meaningful locations for graduation photography. From the iconic Old Capitol building and the Pentacrest to the beautiful Iowa River, your favorite campus memories can become part of your graduation gallery.</p>
+      <p>Whether you're looking for classic cap-and-gown portraits, fun champagne celebration photos where permitted, or creative images around downtown Iowa City, we'll plan a session that reflects your college experience.</p>
+    </section>
+
+    <section>
+      <h2 class="center">Graduation Photography Packages</h2>
+      <div class="details">
+        <article class="detail">
+          <h3>The Classic Grad</h3>
+          <p>Perfect for seniors who want timeless graduation photographs at their favorite campus locations.</p>
+          <p>Includes 45 minutes, one outfit, up to two nearby campus locations, and 25 edited digital images.</p>
+          <p><strong>$225</strong></p>
+        </article>
+        <article class="detail">
+          <h3>The Golden Grad</h3>
+          <p>For seniors who want a full graduation experience with multiple looks and a mix of traditional and creative portraits.</p>
+          <p>Includes 90 minutes, up to three outfits, three nearby locations, and 50 edited digital images.</p>
+          <p><strong>$350</strong></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="center">
+      <h2>Make It a Memory</h2>
+      <p>Bring your cap and gown, your favorite outfit, a pair of heels, or something that represents your college experience. We can incorporate meaningful details like your diploma cover, a favorite book, or your school colors.</p>
+      <p>Want photographs with your best friends? Small-group graduation sessions are also available. Group sessions allow you to celebrate together while still receiving individual portraits.</p>
+    </section>
+
+    <section class="highlight">
+      <h2>Graduation Photography FAQs</h2>
+      <h3>When should I book graduation photos?</h3>
+      <p>For spring graduation, March through early May is popular. Booking four to eight weeks ahead provides more flexibility with dates and locations.</p>
+      <h3>What if it rains?</h3>
+      <p>We can adjust the session date or choose a covered location when possible. Iowa weather can be unpredictable, so flexibility is always part of the plan.</p>
+      <h3>Can my friends join my session?</h3>
+      <p>Yes! Friends are welcome for a few shared photographs, and separate group packages can be arranged for larger celebrations.</p>
+      <h3>When will I receive my photos?</h3>
+      <p>Final edited photographs are delivered through a private online gallery within two weeks of your session.</p>
+    </section>
+
+    <section class="center">
+      <h2>Here's to your next chapter.</h2>
+      <p>Four years, countless memories, and one incredible milestone. Let's create photographs you'll look back on for years to come.</p>
+      <p>Fictional booking inquiries: hello@byemersondrake.example</p>
+      <a class="button" href="index.html">EXPLORE THE STUDIO</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>by.emersondrake</p>
+    <p>Photography &amp; Visual Storytelling</p>
+    <p>Iowa City, Iowa | hello@byemersondrake.example</p>
+    <p><a href="index.html">Home</a> · <a href="couples.html">Couples</a> · <a href="portraits.html">Portraits</a> · <a href="graduation.html">Graduation</a></p>
+    <p>© 2026 by.emersondrake</p>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+  </footer>
+</body>
+</html>
