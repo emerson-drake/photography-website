@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="by.emersondrake offers dreamy, cinematic couples, portraits, and graduation photography in Iowa City, Iowa.">
+  <title>by.emersondrake | Iowa City Photography</title>
+  <style>
+    :root {
+      --cream: #f8f5ef;
+      --brown: #514438;
+      --tan: #d8c8b5;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--brown);
+      font-family: Georgia, serif;
+      line-height: 1.7;
+    }
+    .notice {
+      background: #e8dfd3;
+      padding: 12px 20px;
+      text-align: center;
+      font: 12px/1.5 Arial, sans-serif;
+    }
+    header { text-align: center; padding: 35px 20px 20px; }
+    .logo { font-size: 29px; letter-spacing: 2px; }
+    .tagline { font-size: 12px; letter-spacing: 3px; }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 22px;
+      padding: 20px;
+      border-top: 1px solid var(--tan);
+      border-bottom: 1px solid var(--tan);
+    }
+    nav a {
+      color: var(--brown);
+      text-decoration: none;
+      font: 13px Arial, sans-serif;
+    }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      text-align: center;
+      padding: 105px 20px;
+      background: linear-gradient(135deg, #d6c1a9, #f3e9dc);
+    }
+    .hero h1 {
+      font-size: clamp(35px, 6vw, 62px);
+      font-weight: normal;
+      margin: 0;
+    }
+    .hero p { font-style: italic; font-size: 19px; }
+    .button {
+      display: inline-block;
+      padding: 13px 28px;
+      background: var(--brown);
+      color: white;
+      text-decoration: none;
+      margin-top: 20px;
+      font: 13px Arial, sans-serif;
+      letter-spacing: 1px;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 65px 24px;
+      text-align: center;
+    }
+    h2 { font-size: 35px; font-weight: normal; }
+    .intro { max-width: 700px; margin: auto; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      margin-top: 40px;
+    }
+    .card { background: white; padding: 20px 20px 30px; }
+    .card-art {
+      height: 210px;
+      background: linear-gradient(145deg, #bca58c, #eee2d3);
+    }
+    .card:nth-child(2) .card-art {
+      background: linear-gradient(145deg, #9f9187, #e7d8c8);
+    }
+    .card:nth-child(3) .card-art {
+      background: linear-gradient(145deg, #b6a18d, #f0e7da);
+    }
+    .card h3 { font-weight: normal; font-size: 24px; }
+    .card a { color: var(--brown); }
+    .about { background: #eae1d5; max-width: none; }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #514438;
+      color: white;
+    }
+    footer a { color: white; }
+    footer .notice { color: #514438; margin-top: 25px; }
+    @media (max-width: 700px) {
+      .cards { grid-template-columns: 1fr; }
+      nav { gap: 14px; }
+      .hero { padding: 75px 20px; }
+      section { padding: 45px 20px; }
+      .logo { font-size: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <div class="logo">by.emersondrake</div>
+    <div class="tagline">PHOTOGRAPHY &amp; VISUAL STORYTELLING</div>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html" aria-current="page">HOME</a>
+    <a href="couples.html">COUPLES</a>
+    <a href="portraits.html">PORTRAITS</a>
+    <a href="graduation.html">GRADUATION</a>
+  </nav>
+
+  <main>
+    <div class="hero">
+      <h1>For the moments that feel like magic.</h1>
+      <p>Dreamy, cinematic photography in Iowa City, Iowa.</p>
+      <a class="button" href="#experience">EXPLORE THE EXPERIENCE</a>
+    </div>
+
+    <section>
+      <h2>Photography that feels like you.</h2>
+      <p class="intro">Some moments deserve more than a photograph. They deserve to be remembered exactly as they felt. At by.emersondrake, we create natural, romantic, and timeless images that tell your story through movement, emotion, and beautiful light.</p>
+      <p class="intro">Based in Iowa City, photographer Emerson Drake specializes in couples, individual portraits, and graduation photography for people who want something a little different from traditional posed pictures.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Choose Your Story</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-art" aria-hidden="true"></div>
+          <h3>Couples</h3>
+          <p>For the stolen glances, spontaneous laughter, and little moments that make your love yours.</p>
+          <a href="couples.html">EXPLORE COUPLES →</a>
+        </article>
+        <article class="card">
+          <div class="card-art" aria-hidden="true"></div>
+          <h3>Portraits</h3>
+          <p>Creative, personal photography that captures your confidence, individuality, and style.</p>
+          <a href="portraits.html">EXPLORE PORTRAITS →</a>
+        </article>
+        <article class="card">
+          <div class="card-art" aria-hidden="true"></div>
+          <h3>Graduation</h3>
+          <p>Celebrate the late nights, big dreams, and everything that brought you to this milestone.</p>
+          <a href="graduation.html">EXPLORE GRADUATION →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>Meet Your Photographer</h2>
+      <p class="intro">Hi, I'm Emerson! I'm an Iowa City photographer with a love for warm sunsets, genuine connections, and photographs that look like still frames from your favorite film. I believe the best images happen when you forget the camera is even there.</p>
+      <p class="intro">Whether we're walking through downtown Iowa City or chasing the last bit of sunlight in an open field, my goal is to make your experience relaxed, creative, and unforgettable.</p>
+    </section>
+
+    <section>
+      <h2>Your story deserves to be remembered.</h2>
+      <p>Explore a session designed around who you are, where you've been, and what comes next.</p>
+      <a class="button" href="portraits.html">DISCOVER YOUR SESSION</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>by.emersondrake</p>
+    <p>Photography &amp; Visual Storytelling</p>
+    <p>Iowa City, Iowa | hello@byemersondrake.example</p>
+    <p><a href="index.html">Home</a> · <a href="couples.html">Couples</a> · <a href="portraits.html">Portraits</a> · <a href="graduation.html">Graduation</a></p>
+    <p>© 2026 by.emersondrake</p>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+  </footer>
+</body>
+</html>
