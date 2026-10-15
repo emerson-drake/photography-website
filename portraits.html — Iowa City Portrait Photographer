@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Creative Iowa City portrait photographer Emerson Drake offers cinematic portraits, personal branding photography, and lifestyle sessions.">
+  <title>Iowa City Portrait Photographer | by.emersondrake</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f8f5ef;
+      color: #514438;
+      font-family: Georgia, serif;
+      line-height: 1.7;
+    }
+    .notice {
+      background: #e8dfd3;
+      padding: 12px 20px;
+      text-align: center;
+      font: 12px/1.5 Arial, sans-serif;
+    }
+    header { text-align: center; padding: 35px 20px 20px; }
+    .logo { font-size: 29px; letter-spacing: 2px; }
+    .tagline { font-size: 12px; letter-spacing: 3px; }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 22px;
+      padding: 20px;
+      border-top: 1px solid #d8c8b5;
+      border-bottom: 1px solid #d8c8b5;
+    }
+    nav a {
+      color: #514438;
+      text-decoration: none;
+      font: 13px Arial, sans-serif;
+    }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #a99b90, #e9ded0);
+    }
+    h1 {
+      font-size: clamp(34px, 6vw, 56px);
+      font-weight: normal;
+      margin: 0;
+    }
+    .hero p { font-style: italic; font-size: 20px; }
+    section { max-width: 900px; margin: auto; padding: 65px 24px; }
+    h2 { font-size: 34px; font-weight: normal; }
+    h3 { font-size: 23px; font-weight: normal; }
+    .center { text-align: center; }
+    .highlight {
+      background: #eae1d5;
+      max-width: none;
+      text-align: center;
+    }
+    .highlight p { max-width: 750px; margin: 15px auto; }
+    .details {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .detail { background: white; padding: 25px; }
+    .button {
+      display: inline-block;
+      background: #514438;
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      font: 13px Arial, sans-serif;
+      letter-spacing: 1px;
+      margin-top: 15px;
+    }
+    footer {
+      background: #514438;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer a { color: white; }
+    footer .notice { color: #514438; margin-top: 25px; }
+    @media (max-width: 700px) {
+      .details { grid-template-columns: 1fr; }
+      section { padding: 45px 20px; }
+      nav { gap: 14px; }
+      .hero { padding: 75px 20px; }
+      .logo { font-size: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+
+  <header>
+    <div class="logo">by.emersondrake</div>
+    <div class="tagline">PHOTOGRAPHY &amp; VISUAL STORYTELLING</div>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="index.html">HOME</a>
+    <a href="couples.html">COUPLES</a>
+    <a href="portraits.html" aria-current="page">PORTRAITS</a>
+    <a href="graduation.html">GRADUATION</a>
+  </nav>
+
+  <main>
+    <div class="hero">
+      <h1>Iowa City Portrait Photographer</h1>
+      <p>Artful images for your most authentic self.</p>
+    </div>
+
+    <section class="center">
+      <h2>More than a pretty picture.</h2>
+      <p>Portrait photography should be about more than looking at the camera and smiling. It should capture your personality, confidence, creativity, and everything that makes you unique.</p>
+      <p>At by.emersondrake, we offer creative portrait photography in Iowa City for individuals, artists, entrepreneurs, and anyone who wants photographs that feel personal and intentional.</p>
+      <p>Our signature style combines natural movement, cinematic colors, and thoughtful compositions to create images that feel like works of art.</p>
+    </section>
+
+    <section class="highlight">
+      <h2>Portraits with Personality</h2>
+      <p>Whether you envision a dreamy outdoor session, an editorial-inspired shoot, or relaxed lifestyle portraits, we'll collaborate to bring your vision to life.</p>
+      <p>As your Iowa City portrait photographer, Emerson will help you select locations, plan outfits, and create a mood board that reflects your personal aesthetic.</p>
+    </section>
+
+    <section>
+      <h2 class="center">Find Your Portrait Style</h2>
+      <div class="details">
+        <article class="detail">
+          <h3>Creative Portraits</h3>
+          <p>Express your individuality with artistic lighting, interesting locations, and editorial-inspired styling.</p>
+        </article>
+        <article class="detail">
+          <h3>Lifestyle Portraits</h3>
+          <p>Natural, relaxed images that capture your personality in familiar places and everyday moments.</p>
+        </article>
+        <article class="detail">
+          <h3>Personal Branding</h3>
+          <p>Professional yet approachable photography for entrepreneurs, creatives, and small business owners.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="center">
+      <h2>The Portrait Experience</h2>
+      <p>Each portrait session includes a creative planning consultation, outfit guidance, one location in the Iowa City area, up to 60 minutes of photography, and 30 professionally edited digital images.</p>
+      <p><strong>Session investment: $250</strong></p>
+      <p>For a more editorial experience, our extended 90-minute session includes two locations, additional outfit changes, and 50 edited images for $375.</p>
+    </section>
+
+    <section class="highlight">
+      <h2>Frequently Asked Questions</h2>
+      <h3>Do I need to know how to pose?</h3>
+      <p>Not at all! We'll use natural movement and simple direction to help you feel confident and comfortable in front of the camera.</p>
+      <h3>Can I bring multiple outfits?</h3>
+      <p>Yes. Standard sessions allow one outfit change, while extended sessions provide more flexibility for creative styling.</p>
+      <h3>Where do portrait sessions take place?</h3>
+      <p>Popular options include downtown Iowa City, outdoor parks, and urban architectural spaces. Locations are selected based on your vision and the season.</p>
+    </section>
+
+    <section class="center">
+      <h2>Let's create something beautiful.</h2>
+      <p>You don't need a special occasion to celebrate who you are. Your story is already worth capturing.</p>
+      <p>For fictional session inquiries: hello@byemersondrake.example</p>
+      <a class="button" href="index.html">EXPLORE BY.EMERSONDRAKE</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>by.emersondrake</p>
+    <p>Photography &amp; Visual Storytelling</p>
+    <p>Iowa City, Iowa | hello@byemersondrake.example</p>
+    <p><a href="index.html">Home</a> · <a href="couples.html">Couples</a> · <a href="portraits.html">Portraits</a> · <a href="graduation.html">Graduation</a></p>
+    <p>© 2026 by.emersondrake</p>
+    <div class="notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</div>
+  </footer>
+</body>
+</html>
