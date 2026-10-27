@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://emerson-drake.github.io/photography-website/sitemap.xml
